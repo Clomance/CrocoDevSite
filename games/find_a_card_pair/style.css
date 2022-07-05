@@ -1,0 +1,104 @@
+
+
+.GameName{
+    font-size: 34px;
+    text-align: center;
+}
+
+/* .RetryButton{
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("find_a_card_pair/retry.svg");
+} */
+
+.card_container{
+    margin: auto;
+    margin-top: 20px;
+    display: table;
+    border-spacing: 5px;
+    font-size: 20px;
+    user-select: none;
+}
+
+.row{
+    display: table-row;
+}
+
+.card_wrapper{
+    display: table-cell;
+    width: 50px;
+}
+
+.card_base {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 167%;
+    background-color: #b0ebe4;
+}
+.card_base:hover{
+    background-color: #a0e0e0;
+}
+
+.card_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.card_text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.selected{
+    background-color: #33f3e6;
+}
+.selected:hover{
+    background-color: #33f3e6;
+}
+.matched{
+    background-color: #2ff180;
+}
+.matched:hover{
+    background-color: #2ff180;
+}
+.not_matched{
+    background-color: #f14a4a;
+    color: rgb(249, 249, 249);
+}
+.not_matched:hover{
+    background-color: #f14a4a;
+    color: rgb(249, 249, 249);
+}
+
+.action_button_container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.action_button{
+    width: 180px;
+    height: 60px;
+    background-color: rgb(240, 10, 10);
+    border: none;
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    user-select: none;
+}
+.action_button:hover{
+    background-color: rgb(215, 10, 10);
+}

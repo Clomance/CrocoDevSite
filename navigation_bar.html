@@ -1,0 +1,23 @@
+<div id="NavigationBar" class="NavigationBar">
+    <div class="WebsiteName"><a href="">CrocoDev</a></div>
+    <div class="Navigation">
+        <div class="NavigationItem NavigationMenu" onclick="onNavigationMenuClick();">Навигация</div>
+        <div class="NavigationItem"><a href="/">Главная</a></div>
+        <div class="NavigationItem"><a href="/games">Браузерные игры</a></div>
+        <div class="NavigationItem"><a href="/apps">Приложения</a></div>
+        <div class="NavigationItem"><a href="/other">Другое</a></div>
+    </div>
+
+    <script>
+        function onNavigationMenuClick(){
+            let navigationBar = document.getElementById("NavigationBar");
+
+            if (navigationBar.classList.contains("expanded")){
+                navigationBar.classList.remove("expanded");
+            }
+            else{
+                navigationBar.classList.add("expanded");
+            }
+        }
+    </script>
+</div>

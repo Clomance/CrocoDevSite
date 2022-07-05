@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<games>
+    <game name="Найди пары карт" path="find_a_card_pair">
+        В этой игре вам предстоит найти одинаковые карты.
+    </game>
+<!-- 
+    <game name="Найди котов" path="find_a_cat">
+        Найди котов - всё просто.
+    </game>
+
+    <game name="Кубик случайности" path="random_cube">
+        От кубика зависит выиграешь ты или нет.
+    </game>
+    
+    <game name="Змейка1" path="snake1">
+        Простенькая змейка с лимитом еды.
+    </game>
+
+    <game name="Змейка2" path="snake2">
+        Авторская змейка с лимитом еды.
+    </game>
+
+    <game name="Тетрис" path="tetris">
+        Простенький тетрис с мелодией на фоне.
+    </game>
+
+    <game name="Сокровища" path="treasure">
+        Платформер. Нужно достать сокровища.
+    </game>
+
+    <game name="Страшные истории" path="scary_stories">
+        Набор страшных историй с картинками.
+    </game> -->
+</games>
