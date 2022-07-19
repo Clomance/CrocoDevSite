@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <games>
-    <game name="Найди пары карт" path="find_a_card_pair">
-        В этой игре вам предстоит найти одинаковые карты.
+    <game name="Запомни и найди" path="find_a_card_pair">
+        В этой игре вам предстоит запомнить и найти одинаковые пары карт.
     </game>
 <!-- 
     <game name="Найди котов" path="find_a_cat">
